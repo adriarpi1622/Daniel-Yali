@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T01:51:26.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zaSgQwvNK7QDA5H1ncuD" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T01:53:10.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eOFnIGNVsSZ4U5WbBJ7D" version="20.2.7" type="github">
   <diagram id="BVlV2mEbgxm0ihEO0yfw" name="Página-1">
     <mxGraphModel dx="1102" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,15 @@
         <mxCell id="MCIc6I6H5_PxLbSqy5PG-16" value="Encargado de computo" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="820" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MCIc6I6H5_PxLbSqy5PG-19" value="Registrar usuarios del sistema" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MCIc6I6H5_PxLbSqy5PG-64" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="MCIc6I6H5_PxLbSqy5PG-19" target="MCIc6I6H5_PxLbSqy5PG-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MCIc6I6H5_PxLbSqy5PG-65" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MCIc6I6H5_PxLbSqy5PG-64">
+          <mxGeometry x="-0.2827" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MCIc6I6H5_PxLbSqy5PG-19" value="Registrar usuarios al sistema" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="750" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MCIc6I6H5_PxLbSqy5PG-20" value="Permitir el ingreso a usuarios" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -194,6 +202,9 @@
         </mxCell>
         <mxCell id="MCIc6I6H5_PxLbSqy5PG-60" value="identificar asignación de día" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="-220" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MCIc6I6H5_PxLbSqy5PG-63" value="Generar perfil" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="730" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
